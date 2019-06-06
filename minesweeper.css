@@ -1,0 +1,38 @@
+QWidget{
+	background: grey;
+}
+
+QPushButton{
+	background-color: #C0C0C0;
+    border-style: outset;
+    border-top-color: #909090;
+    border-left-color: #909090;
+    border-right-color: #505050;
+    border-left-color: #505050;
+    border-width: 2px;
+    
+	}
+
+QPushButton::hover{
+	color: #000000;
+	background: #66FFCC;
+	}
+
+
+/*QPushButton::disabled{
+	background: #282827;
+	color: white;
+	}*/
+
+#lcd_flag_count{
+	background-color: black;
+	color: green;
+
+}
+
+#lcd_time{
+	background-color: black;
+	color: green;
+	text-align: center;
+	vertical-align: middle;
+}
